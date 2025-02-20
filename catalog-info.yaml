@@ -3,8 +3,8 @@ kind: Component
 metadata:
   name: pipelines-java
   annotations:
-    github.com/project-slug: org-lzhuang/pipelines-java
+    dev.azure.com/project-repo: my-project/my-repo
 spec:
-  type: other
+  type: service
   lifecycle: unknown
   owner: org-lzhuang
