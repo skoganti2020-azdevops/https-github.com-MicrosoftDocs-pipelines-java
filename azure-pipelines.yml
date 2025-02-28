@@ -5,6 +5,7 @@
 #There is a code change
 trigger:
 - main
+-release-Feb-2025
 
 pool:
   vmImage: ubuntu-latest
