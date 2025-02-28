@@ -5,6 +5,7 @@
 #There is a code change on release version 
 trigger:
 - main
+-release-Feb-2025
 
 
 
