@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: pipelines-java
+  annotations:
+    dev.azure.com/build-definition: Test
+    dev.azure.com/project: lzhuang-test-proj2
+spec:
+  type: service
+  lifecycle: unknown
+  owner: org-lzhuang
