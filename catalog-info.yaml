@@ -3,8 +3,10 @@ kind: Component
 metadata:
   name: pipelines-java3
   annotations:
-    github.com/project-slug: org-lzhuang/pipelines-java3
+    dev.azure.com/project-repo: lucarval-hello-world/org-lzhuang.pipelines-java3
+    dev.azure.com/build-definition: Test
+    dev.azure.com/project: lucarval-hello-world
 spec:
-  type: other
+  type: service
   lifecycle: unknown
   owner: org-lzhuang
