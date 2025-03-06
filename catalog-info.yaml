@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: pipelines-java3
+  annotations:
+    github.com/project-slug: org-lzhuang/pipelines-java3
+spec:
+  type: other
+  lifecycle: unknown
+  owner: org-lzhuang
