@@ -1,5 +1,6 @@
 import com.microsoft.demo.Demo;
 import com.microsoft.demo.Pipeline_Test;
+import org.junit.Assert;
 import org.junit.Test;
 
 public class MyTest {
@@ -29,5 +30,11 @@ public class MyTest {
         String rev = pt.MyTestPipeline(s);
         if (rev.length()<9)
             System.out.println("Length Not Matching..!");
+    }
+
+    @Test
+    public void validateRandomPassword(){
+        char [] password = pt.random_password(10);
+        Assert.fail();
     }
 }
